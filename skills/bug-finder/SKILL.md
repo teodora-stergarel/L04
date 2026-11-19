@@ -26,8 +26,6 @@ Rules:
   e.g. ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "")
 - For user input in an SQL query, the fix uses a parameterized query with ? and passes the values as a tuple.
 - Answer with the bug reports only: no introduction, no summary, no Markdown, no code blocks.
-5. Words like "or more", "at least", "at most" mean >= or <=, not > or <. Check every comparison against them.
-6. Check that every parameter is used where the docstring needs it. For example, a range "from low to high" must use high.
 
 Use exactly this format, one block per bug, with an empty line between blocks:
 
